@@ -1,294 +1,286 @@
 [
   {
-    "ts": "2025-09-30T07:31:59.591271",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 0",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591282",
+    "ts": "2025-10-01T07:31:37.363019",
     "from": "it-support@fakecorp.com",
     "subject": "Test message 1",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
+    "rule": "MAL_ATTACH",
+    "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591292",
-    "from": "trusted@partner.com",
+    "ts": "2025-10-01T07:31:37.363025",
+    "from": "badguy@phish.com",
+    "subject": "Test message 3",
+    "rule": "MAL_ATTACH",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363029",
+    "from": "hr@payro1l.example",
     "subject": "Test message 4",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591294",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 5",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591297",
-    "from": "trusted@partner.com",
-    "subject": "Test message 6",
     "rule": "BEC_LIKE",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363038",
+    "from": "badguy@phish.com",
+    "subject": "Test message 7",
+    "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591304",
-    "from": "it-support@fakecorp.com",
+    "ts": "2025-10-01T07:31:37.363041",
+    "from": "trusted@partner.com",
     "subject": "Test message 8",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591306",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 9",
-    "rule": "BEC_LIKE",
+    "ts": "2025-10-01T07:31:37.363047",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 11",
+    "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591308",
-    "from": "badguy@phish.com",
-    "subject": "Test message 10",
+    "ts": "2025-10-01T07:31:37.363052",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 14",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591316",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 15",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591320",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 17",
-    "rule": "PHISH_URL",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591321",
-    "from": "trusted@partner.com",
-    "subject": "Test message 18",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591323",
+    "ts": "2025-10-01T07:31:37.363054",
     "from": "badguy@phish.com",
-    "subject": "Test message 19",
-    "rule": "PHISH_URL",
+    "subject": "Test message 15",
+    "rule": "MAL_ATTACH",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363059",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 18",
+    "rule": "MAL_ATTACH",
     "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591324",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 20",
-    "rule": "PHISH_URL",
+    "ts": "2025-10-01T07:31:37.363061",
+    "from": "trusted@partner.com",
+    "subject": "Test message 19",
+    "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591328",
-    "from": "badguy@phish.com",
+    "ts": "2025-10-01T07:31:37.363065",
+    "from": "hr@payro1l.example",
     "subject": "Test message 22",
     "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591334",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 26",
-    "rule": "PHISH_URL",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591341",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 30",
-    "rule": "BEC_LIKE",
     "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591344",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 32",
-    "rule": "BEC_LIKE",
-    "action": "delivered",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591347",
+    "ts": "2025-10-01T07:31:37.363074",
     "from": "hr@payro1l.example",
-    "subject": "Test message 34",
+    "subject": "Test message 27",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591352",
-    "from": "badguy@phish.com",
-    "subject": "Test message 37",
+    "ts": "2025-10-01T07:31:37.363075",
+    "from": "trusted@partner.com",
+    "subject": "Test message 28",
     "rule": "BEC_LIKE",
     "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591353",
-    "from": "trusted@partner.com",
+    "ts": "2025-10-01T07:31:37.363077",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 29",
+    "rule": "BEC_LIKE",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363078",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 30",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363085",
+    "from": "badguy@phish.com",
+    "subject": "Test message 34",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363090",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 37",
+    "rule": "MAL_ATTACH",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363091",
+    "from": "it-support@fakecorp.com",
     "subject": "Test message 38",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591355",
-    "from": "it-support@fakecorp.com",
+    "ts": "2025-10-01T07:31:37.363093",
+    "from": "badguy@phish.com",
     "subject": "Test message 39",
     "rule": "BEC_LIKE",
     "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591356",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 40",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591360",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 42",
-    "rule": "PHISH_URL",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591366",
-    "from": "hr@payro1l.example",
+    "ts": "2025-10-01T07:31:37.363104",
+    "from": "trusted@partner.com",
     "subject": "Test message 46",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591368",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 47",
-    "rule": "BEC_LIKE",
-    "action": "delivered",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591381",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 54",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591384",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 56",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591388",
+    "ts": "2025-10-01T07:31:37.363107",
     "from": "trusted@partner.com",
-    "subject": "Test message 58",
+    "subject": "Test message 48",
     "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591391",
-    "from": "badguy@phish.com",
-    "subject": "Test message 60",
+    "ts": "2025-10-01T07:31:37.363109",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 49",
+    "rule": "MAL_ATTACH",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363110",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 50",
+    "rule": "MAL_ATTACH",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363112",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 51",
     "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591398",
+    "ts": "2025-10-01T07:31:37.363115",
     "from": "badguy@phish.com",
+    "subject": "Test message 53",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363120",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 54",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363123",
+    "from": "badguy@phish.com",
+    "subject": "Test message 56",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363124",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 57",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363127",
+    "from": "trusted@partner.com",
+    "subject": "Test message 59",
+    "rule": "MAL_ATTACH",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363136",
+    "from": "trusted@partner.com",
     "subject": "Test message 61",
     "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591399",
-    "from": "hr@payro1l.example",
+    "ts": "2025-10-01T07:31:37.363137",
+    "from": "it-support@fakecorp.com",
     "subject": "Test message 62",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591403",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 64",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591404",
-    "from": "trusted@partner.com",
-    "subject": "Test message 65",
     "rule": "MAL_ATTACH",
-    "action": "delivered",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591409",
-    "from": "badguy@phish.com",
-    "subject": "Test message 68",
-    "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591410",
-    "from": "trusted@partner.com",
-    "subject": "Test message 69",
-    "rule": "PHISH_URL",
+    "ts": "2025-10-01T07:31:37.363139",
+    "from": "hr@payro1l.example",
+    "subject": "Test message 63",
+    "rule": "BEC_LIKE",
     "action": "delivered",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591413",
+    "ts": "2025-10-01T07:31:37.363143",
+    "from": "trusted@partner.com",
+    "subject": "Test message 66",
+    "rule": "BEC_LIKE",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363149",
+    "from": "badguy@phish.com",
+    "subject": "Test message 70",
+    "rule": "MAL_ATTACH",
+    "action": "quarantined",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363151",
     "from": "it-support@fakecorp.com",
     "subject": "Test message 71",
-    "rule": "MAL_ATTACH",
+    "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591415",
+    "ts": "2025-10-01T07:31:37.363153",
     "from": "trusted@partner.com",
     "subject": "Test message 72",
     "rule": "PHISH_URL",
@@ -296,7 +288,7 @@
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591416",
+    "ts": "2025-10-01T07:31:37.363154",
     "from": "badguy@phish.com",
     "subject": "Test message 73",
     "rule": "PHISH_URL",
@@ -304,47 +296,23 @@
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591421",
+    "ts": "2025-10-01T07:31:37.363163",
     "from": "badguy@phish.com",
-    "subject": "Test message 76",
+    "subject": "Test message 78",
     "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591426",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 79",
+    "ts": "2025-10-01T07:31:37.363170",
+    "from": "badguy@phish.com",
+    "subject": "Test message 83",
     "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591429",
-    "from": "hr@payro1l.example",
-    "subject": "Test message 81",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591432",
-    "from": "badguy@phish.com",
-    "subject": "Test message 83",
-    "rule": "MAL_ATTACH",
-    "action": "delivered",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591434",
-    "from": "trusted@partner.com",
-    "subject": "Test message 84",
-    "rule": "MAL_ATTACH",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591436",
+    "ts": "2025-10-01T07:31:37.363173",
     "from": "badguy@phish.com",
     "subject": "Test message 85",
     "rule": "PHISH_URL",
@@ -352,57 +320,57 @@
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591437",
+    "ts": "2025-10-01T07:31:37.363176",
     "from": "trusted@partner.com",
-    "subject": "Test message 86",
-    "rule": "BEC_LIKE",
+    "subject": "Test message 87",
+    "rule": "MAL_ATTACH",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363181",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 90",
+    "rule": "PHISH_URL",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591439",
+    "ts": "2025-10-01T07:31:37.363184",
     "from": "trusted@partner.com",
-    "subject": "Test message 87",
+    "subject": "Test message 92",
     "rule": "MAL_ATTACH",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591443",
+    "ts": "2025-10-01T07:31:37.363188",
     "from": "it-support@fakecorp.com",
-    "subject": "Test message 90",
+    "subject": "Test message 94",
+    "rule": "PHISH_URL",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363191",
+    "from": "it-support@fakecorp.com",
+    "subject": "Test message 96",
+    "rule": "BEC_LIKE",
+    "action": "delivered",
+    "risk": "high"
+  },
+  {
+    "ts": "2025-10-01T07:31:37.363192",
+    "from": "badguy@phish.com",
+    "subject": "Test message 97",
     "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
   },
   {
-    "ts": "2025-09-30T07:31:59.591445",
-    "from": "it-support@fakecorp.com",
-    "subject": "Test message 91",
-    "rule": "BEC_LIKE",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591446",
-    "from": "badguy@phish.com",
-    "subject": "Test message 92",
-    "rule": "PHISH_URL",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591448",
-    "from": "badguy@phish.com",
-    "subject": "Test message 93",
-    "rule": "PHISH_URL",
-    "action": "quarantined",
-    "risk": "high"
-  },
-  {
-    "ts": "2025-09-30T07:31:59.591451",
+    "ts": "2025-10-01T07:31:37.363194",
     "from": "trusted@partner.com",
-    "subject": "Test message 95",
+    "subject": "Test message 98",
     "rule": "BEC_LIKE",
     "action": "quarantined",
     "risk": "high"
