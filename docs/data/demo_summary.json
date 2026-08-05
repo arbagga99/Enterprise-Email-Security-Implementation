@@ -1,46 +1,46 @@
 {
-  "run_at": "2026-08-04T09:37:48.152183",
+  "run_at": "2026-08-05T09:36:11.026499",
   "scanned_messages": 100,
-  "blocked_spam": 16,
-  "blocked_phishing": 12,
-  "false_positives": 26,
+  "blocked_spam": 19,
+  "blocked_phishing": 19,
+  "false_positives": 27,
   "top_rules": [
     [
-      "DMARC_FAIL",
-      22
-    ],
-    [
-      "MAL_ATTACH",
-      18
-    ],
-    [
-      "BEC_LIKE",
-      17
+      "CLEAN",
+      25
     ],
     [
       "SPF_FAIL",
-      16
+      19
     ],
     [
-      "CLEAN",
-      15
+      "PHISH_URL",
+      19
+    ],
+    [
+      "DMARC_FAIL",
+      14
+    ],
+    [
+      "BEC_LIKE",
+      12
     ]
   ],
   "top_senders": [
     [
-      "hr@payro1l.example",
-      28
-    ],
-    [
       "trusted@partner.com",
-      26
+      27
     ],
     [
-      "it-support@fakecorp.com",
-      23
+      "hr@payro1l.example",
+      25
     ],
     [
       "badguy@phish.com",
+      25
+    ],
+    [
+      "it-support@fakecorp.com",
       23
     ]
   ]
